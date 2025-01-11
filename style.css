@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Jersey+15&display=swap');
+
+html {
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+h1{
+    font-size: 40px;
+}
+body{
+    margin: 30px;
+    padding: 0;
+}
+.big-big-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.big-container{
+    background-color: black;
+    width: 420px;
+    border-radius: 60px;
+    box-shadow: 0 15px 40px 5px rgba(0, 0, 0, 0.6), 0 20px 60px 10px rgba(0, 0, 0, 0.5);
+}
+.button {
+    font-size: 20px;
+    padding: 20px;
+    margin: 0 3px;
+    width: 66px;
+    /* border: 2px solid black; */
+    border-radius: 50%;
+    cursor: pointer;
+}
+.bg-grey{
+    background-color: rgb(130, 130, 130);
+}
+.bg-yellow{
+    background-color: rgb(217, 149, 22);
+}
+.bg-black{
+    background-color: rgb(53, 53, 53);
+}
+.font-color{
+    color: white;
+}
+
+.row {
+    margin: 8px 0;
+}
+
+.row input {
+    font-size: 19px;
+    margin: 0;
+    padding: 0;
+    padding: 10px 0px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
